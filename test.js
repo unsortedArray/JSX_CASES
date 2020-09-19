@@ -1,4 +1,4 @@
-const codeGenerator = require("../index");
+const codeGenerator = require("./index");
 
 const removeSpacesFromString = (str) => {
    let transformedString = "";
@@ -15,7 +15,6 @@ const removeSpacesFromString = (str) => {
          else
             transformedString += `${retstr[i]}`
    }
-   // console.log(transformedString)
    return transformedString;
 }
 
